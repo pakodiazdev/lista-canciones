@@ -2,5 +2,5 @@
 
 
 function registrarCancion() {
-    echo "Esta funcion obtendrá las cancion";
+    echo "Esta funcion registrará una canción";
 }
