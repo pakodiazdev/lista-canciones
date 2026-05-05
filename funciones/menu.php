@@ -1,6 +1,8 @@
 <?php 
+include_once "limpiarPantalla.php";
 
 function menu() {
+    limpiarPantalla();
     echo "Bienvenido al sistema de  de canciones. Por favor, elija una opción:\n";
     echo "1. Agregar cancion\n";
     echo "2. Ver lista completa.\n";
